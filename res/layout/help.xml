@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 帮助界面布局文件 -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+	
+<LinearLayout 
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >
+    
+    <!-- 软件名称 -->  
+
+    <!-- 软件版本 -->
+    <TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/help_software_verson"
+    />
+    
+    <!-- 软件作者 -->
+    <TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/help_software_author"
+    />
+    
+    <!-- 作者联系方式 _邮箱-->
+    <TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/help_connectAuthor_mail"
+    />
+    <!-- 作者联系方式 _QQ-->
+    <TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/help_connectAuthor_QQ"
+    />
+    <!-- 作者联系方式 _博客-->
+    <TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/help_connectAuthor_blog"
+    />
+    
+    <!-- 软件描述 -->
+
+    
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.newjueqi"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <application android:icon="@drawable/donkeysmall" android:label="@string/main_app_name">
+  		<!-- 主界面 -->
+        <activity android:name=".MyRssReader"
+                  android:label="@string/main_app_name"
+                  android:icon="@drawable/donkeysmall"
+                  >   
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+          
+  		<!-- 频道中新闻项界面 -->
+        <activity android:name=".itemlist.ActivityItemList"
+                  android:label="@string/item_app_name" />
+        <activity android:name=".itemlist.ActivityShowItemDescription"
+                  android:label="@string/item_app_name" />
+                  
+                  
+        
+        <!-- 帮助界面 -->
+        <activity android:name=".help.ActivityHelp"
+                  android:label="@string/help_app_name" />
+
+        <!-- 管理界面 -->
+        <activity android:name=".manager.ActivityManager"
+                  android:label="@string/manager_app_name" />
+                  
+        <activity android:name=".manager.ActivityChannelEdit"
+                   />
+                  
+
+        <!-- 设置界面 -->
+        <activity android:name=".setting.ActivitySetting"
+                  android:label="@string/setting_app_name" />
+
+        
+    </application>
+    
+    
+    
+    
+    
+        <uses-permission android:name="android.permission.INTERNET"/>
+    
+    <uses-sdk android:minSdkVersion="3" />
+</manifest> 

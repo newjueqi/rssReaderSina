@@ -1,0 +1,18 @@
+#
+# An unexpected error has been detected by Java Runtime Environment:
+#
+#  Internal Error (434C41535326494C453041525345520E4350500B65), pid=8436, tid=8476
+#
+# Java VM: Java HotSpot(TM) Client VM (1.6.0_02-b06 mixed mode)
+# If you would like to submit a bug report, please visit:
+#   http://java.sun.com/webapps/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x00a96400):  JavaThread "Unknown thread" [_thread_in_vm, id=8476]
+
+Stack: [0x00b30000,0x00b80000)
+[error occurred during error reporting, step 110, id 0xc00000fd]
+
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)

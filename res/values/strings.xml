@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- 
+	命名规范：
+	aaaa_bbbb_cccc
+	____ ____ ____
+	  一          二         三
+	
+	一(aaaa).
+	1.以main开头，主界面
+	2.以item开头，频道界面
+	3.以manager开头，管理界面
+	4.以setting开头，设置界面
+	5.以help开头，帮助界面
+	
+	二(bbbb).
+	1.menu 
+	2.string
+	3.id
+	 -->
+
+	<!-- 全局按钮名称 -->
+    <string name="gloal_button_exit">退出</string>
+    <string name="gloal_button_back">返回</string>
+	
+
+	<!-- 主界面文字信息 -->
+    <string name="main_app_name">网际通新闻阅读器</string>
+    <string name="main_menu_manager">管理</string>
+    <string name="main_menu_setting">设置</string>
+    <string name="main_menu_help">帮助</string>
+    
+    
+    
+	<!-- 频道界面文字信息 -->
+    <string name="item_app_name">新闻列表</string>
+    <string name="item_description_app_name">详细信息</string>
+    
+    <!-- 频道相关的Activity用到的文字信息 -->
+    <string name="item_rss_error">访问的RSS无效</string>
+    <string name="item_app_error">程序出错</string>
+    <string name="item_description_link">详细信息请访问如下的链接</string>
+    
+    
+	   
+	<!-- 管理界面文字信息 -->
+    <string name="manager_app_name">频道管理</string>
+    <string name="manager_button_add">新增频道</string>
+    <string name="manager_button_update">修改频道</string>
+    <string name="manage_button_del">删除频道</string>
+    
+    <!-- 频道编辑界面的标题 -->
+    <string name="manager_add_lable">新增频道信息</string>
+    <string name="manager_edit_lable">修改频道信息</string>
+    
+ 
+    
+    <!-- 删除菜单所弹出的两个对话框的信息 -->
+    <string name="manager_delmenu_confirm_yes">是</string>
+    <string name="manager_delmenu_confirm_no">否</string>
+    <string name="manager_delmenu_confirm_essage_1">确定要删除频道"</string>
+    <string name="manager_delmenu_confirm_essage_2">"的所有信息吗?</string>
+    
+    
+    <!-- 管理界面下级界面“修改”界面信息 -->
+    <string name="manager_edit_title">频道名称</string>
+    <string name="manager_edit_link">频道链接</string>
+	<string name="manager_edit_description">频道描述</string>
+	    
+    <string name="manager_edit_confirm">确定</string>
+    
+    
+    <!-- 根据是否传入ID确定编辑Activity的名称 -->
+    <string name="manager_edit">修改频道</string>
+    <string name="manager_add">增加频道</string>
+    
+    
+	<!-- 设置界面文字信息 -->
+    <string name="setting_app_name">设置</string>
+    
+	<!-- 帮助界面文字信息 -->
+    <string name="help_app_name">帮助信息</string>
+    
+    
+    <!--帮助显示内容    
+    软件名称：网际通新闻阅读器
+版本：V1.00
+作者：曾健生(newjueqi)
+联系方式：
+    邮箱：zengjiansheng1@126.com 
+    QQ:190678908
+    blog: http://blog.csdn.net/newjueqi
+软件描述：
+    本人平时挺爱通过互联网了解最新的新闻信息，但在Android平台上找不到符合平时浏览习惯的新闻阅读器，所以就动手写了这个“网际通
+
+新闻阅读器”。
+    本人水平有限，如发现bug或有相关的意见请联系本人(联系方式如上)，本人不胜感激。
+    -->
+    <string name="help_software_verson">版本：V1.00</string>
+    <string name="help_software_author">作者：曾健生(newjueqi)</string>
+    <string name="help_connectAuthor_mail">邮箱：zengjiansheng1@126.com</string>  
+    <string name="help_connectAuthor_QQ">QQ:190678908  </string>
+    <string name="help_connectAuthor_blog">blog: http://blog.csdn.net/newjueqi</string>  
+
+    
+    
+</resources>

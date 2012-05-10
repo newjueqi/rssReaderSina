@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 频道中新闻项的标题和更新时间界面布局文件 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >
+    
+    <TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+	android:id="@+id/item_row_text_title" />
+	    
+    <TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+	android:id="@+id/item_row_text_pubdate" />
+	
+</LinearLayout>
